@@ -1,0 +1,15 @@
+^func1:
+    #L0:
+        .w1 r2 r3 r4
+        .w4 r6 r1
+        .j1
+    #L1:
+        .w1 r3 r4
+        .e
+^func2:
+    #L0:
+        .r2 w1
+        .r1 r4 j2
+    #L2:
+        .w1 w2 w3
+        .e
